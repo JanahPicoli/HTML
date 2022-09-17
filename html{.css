@@ -1,0 +1,29 @@
+html{
+font-size: 13px;
+color: aliceblue;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h1, h2{
+font-size: 30px;
+text-align;
+margin: auto;
+padding: 20px 0;
+color: white;
+text-shadow: 5px 3px 1px black;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-position: center;
+}
+pre{color: blueviolet;
+background-color: black;
+text-align: center;
+
+
+}
+
+body{
+    width: 600px;
+    margin: auto;
+    background-image: url("taça");
+}
