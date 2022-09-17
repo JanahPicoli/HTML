@@ -1,0 +1,103 @@
+
+.conteiner-grid{
+display: grid; /*colunas e seus tamanhos*/
+width: 33,33%;
+padding: 5px;
+gap: 10px; /*intervalo das linhas e colunas*/
+}
+
+.conteiner-grid > div{
+    background-color: grey;
+    border: 10px solid darkgray;
+    border-radius: 5px;
+    font-family: serif;
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    
+
+}
+
+a:link, a:visited {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width:190px;
+ height:26px;
+    text-align: center;
+    text-decoration: none; /* retirar underscore*/
+    display: inline-block; /*disposição dos botoes*/
+  }
+  
+  a:hover, a:active {
+    background-color: white;
+    color: black;
+  }
+
+.conteiner-grid > header { /*titulo*/
+    grid-column: 1/4;
+    text-shadow: 2px 2px;
+    background-color: grey;
+    border-width: 10px; /*espessura da borda*/
+    border-style: solid;
+    border-color: darkgray;
+    font-family: serif;
+    font-size: 55px;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+
+    }
+
+#item1 { /* coluna da esquerda - links*/
+    grid-column: 2/ 2 span 1 / span 1;
+    background-color: grey;
+    border: 10px solid darkgray;
+    border-radius: 5px;
+    font-family: serif;
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    
+    }
+
+#Contos{
+        grid-area: 2 / 2 span 1 / span 1;
+        background-color: grey;
+        border: 10px solid darkgray;
+        border-radius: 5px;;
+        font-family: serif;
+        color: aliceblue;
+        font-size: 30px;
+    }
+  #texto{
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 1.8;
+    font-family: arial;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+
+  }  
+
+#rodape{
+grid-area: 5 / 1 / span 1 / span 3;
+background-color: grey;
+border: 10px solid darkgray;
+font-family: serif;
+color: aliceblue;
+font-size: 25px;
+text-align: center;
+padding: 20px;
+border-radius: 5px;
+
+
+    }
+
+body {
+background-color: black;
+
+}
